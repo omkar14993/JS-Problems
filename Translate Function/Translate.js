@@ -81,7 +81,7 @@ function translate(translations, path, data) {
         if (result[key[i]] === undefined) {
             return "Path is incorrect";
         }
-        result = sampleObj[keys[i]];
+        result = result[keys[i]];
     };
 
     // result = "{{ name }}'s Page"
