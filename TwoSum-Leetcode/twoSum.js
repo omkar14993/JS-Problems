@@ -5,7 +5,7 @@ let target = 8;
 function twoSum(nums, target) {
     for (let i = 0; i < nums.length; i++) {
         let first = nums[i];
-        for (let j = 0; j < nums.length; j++) {
+        for (let j = i+1; j < nums.length; j++) {
             if (target - nums[i] === nums[j])
                 return [i, j];
         }
