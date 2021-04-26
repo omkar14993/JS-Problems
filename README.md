@@ -1,2 +1,2 @@
 # JS-Problems
-This repo contains random JS problems i found online and my solutions.
+This repo contains LeetCode and other JS problems i encountered online and my approach to solving them.
