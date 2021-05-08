@@ -19,7 +19,7 @@ Explanation: There is no common prefix among the input strings.
 */
 
 
-// Vertical Sacnning, compare values of all Strings in the array for each index i.
+// Horizontal Sacnning, compare values of all Strings in the array for each index i.
 
 function longestCommonPrefix(strs) {
     let lcs = '';
